@@ -304,7 +304,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Motion.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lead.with.Mercury.Motion.2025;
 				PRODUCT_NAME = MercuryMotion;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
@@ -332,7 +332,7 @@
 					"-ObjC",
 					"-lc++",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.mercury.Motion.app;
+				PRODUCT_BUNDLE_IDENTIFIER = com.lead.with.Mercury.Motion.2025;
 				PRODUCT_NAME = MercuryMotion;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";

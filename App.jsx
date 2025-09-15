@@ -320,7 +320,7 @@ function App() {
   OneSignal.Debug.setLogLevel(LogLevel.Verbose);
 
   // OneSignal ініціалізація
-  OneSignal.initialize('65d7bc8b-28fd-4b5b-afd9-d6e05101450f');
+  OneSignal.initialize('9203c1e8-fa55-43c8-a330-33eab2471c9d');
   //OneSignal.Debug.setLogLevel(OneSignal.LogLevel.Verbose);
 
   // Встановлюємо цей ID як OneSignal External ID

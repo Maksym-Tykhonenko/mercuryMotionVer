@@ -8,10 +8,10 @@ workflows:
     environment:
       ios_signing:
         distribution_type: app_store
-        bundle_identifier: com.mercury.Motion.app
+        bundle_identifier: com.lead.with.Mercury.Motion.2025
       vars:
         APP_STORE_APPLE_ID: 6749210540
-        BUNDLE_ID: 'com.mercury.Motion.app'
+        BUNDLE_ID: 'com.lead.with.Mercury.Motion.2025'
         XCODE_WORKSPACE: 'MercuryMotion.xcworkspace'
         XCODE_SCHEME: 'MercuryMotion'
     scripts:
