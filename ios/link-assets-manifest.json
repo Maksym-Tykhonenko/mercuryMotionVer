@@ -1,0 +1,17 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "assets/fonts/Montserrat-VariableFont_wght.ttf",
+      "sha1": "e3f5228e62455228b55694f1cb5ac40f9682a86b"
+    },
+    {
+      "path": "assets/fonts/Poppins-Regular.ttf",
+      "sha1": "fdd3002e7d814ee47c1c1b8487c72c6bbb3a2d00"
+    },
+    {
+      "path": "assets/fonts/fonts.js",
+      "sha1": "f8fe4b90f0d8aa7e9f1e1c428125e3027ece1749"
+    }
+  ]
+}
