@@ -517,12 +517,19 @@ const MercuryMotionProdScr = ({ navigation, route }) => {
           paddingTop: 10,
         }}
       >
-        {/**Btn back
-         *<Image
+        {/**Btn back*/}
+        <TouchableOpacity
+          style={{ marginLeft: 40 }}
+          onPress={() => {
+            goBackBtn();
+          }}
+        >
+          <Image
             style={{ width: 30, height: 33 }}
-            source={require('../assets/icons/arrow77.png')}
+            source={require('./iconik/arrow77.png')}
           />
-         */}
+        </TouchableOpacity>
+        {/** 
         <TouchableOpacity
           style={{
             marginLeft: 40,
@@ -547,8 +554,7 @@ const MercuryMotionProdScr = ({ navigation, route }) => {
           >
             Back
           </Text>
-        </TouchableOpacity>
-
+        </TouchableOpacity>*/}
         {/**Btn reload
          *<Image
             style={{ width: 30, height: 30 }}
@@ -556,29 +562,15 @@ const MercuryMotionProdScr = ({ navigation, route }) => {
           />
          */}
         <TouchableOpacity
-          style={{
-            marginRight: 40,
-            backgroundColor: '#27aae1',
-            width: 70,
-            height: 35,
-            justifyContent: 'center',
-            alignItems: 'center',
-            borderRadius: 25,
-          }}
+          style={{ marginRight: 40 }}
           onPress={() => {
             reloadPageBtn();
           }}
         >
-          <Text
-            style={{
-              color: '#fff', // золотий текст
-              fontSize: 16,
-              //fontWeight: '600',
-              //letterSpacing: 1, // трішки розширені букви
-            }}
-          >
-            Reload
-          </Text>
+          <Image
+            style={{ width: 30, height: 30 }}
+            source={require('./iconik/redo77.png')}
+          />
         </TouchableOpacity>
       </View>
     </SafeAreaView>
