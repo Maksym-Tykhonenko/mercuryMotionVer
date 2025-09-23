@@ -71,7 +71,7 @@ const MercuryOrbitsInfo = () => {
                 <Animated.View style={{ opacity: buttonFadeAnim, width: '100%', marginTop: 30 }}>
                     <TouchableOpacity
                         style={commonMotion.button}
-                        onPress={() => navigation()}//navigation.navigate('MercuryDailyOrbitmotion')
+                        onPress={() =>navigation.navigate('MercuryDailyOrbitmotion')}// navigation()
                     >
                         <LinearGradient
                             colors={yellowGradient}
